@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="PPTSuite" verbose="1">
+    <test name="PresentationTest">
+        <parameter name="sheetName" value="ppt"></parameter>
+        <classes>
+            <class name="test.ui.PresentationPageTest"/>
+        </classes>
+    </test>
+</suite>

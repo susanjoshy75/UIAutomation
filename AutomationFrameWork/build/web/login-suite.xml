@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="LoginSuite" verbose="1">
+    <test name="LoginTest">
+        <parameter name="seesionCookie" value="PHPSESSID"></parameter>
+        <parameter name="sheetName" value="login"></parameter>
+        <classes>
+            <class name="test.ui.LoginPageTest"/>
+        </classes>
+    </test>
+</suite>

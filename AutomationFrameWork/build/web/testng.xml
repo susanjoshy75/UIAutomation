@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="UIAutomation" verbose="1">
+    <suite-files>
+        <suite-file path="home-suite.xml"/>
+        <suite-file path="login-suite.xml"/>
+       <suite-file path="presentation-suite.xml"/>
+        
+    </suite-files>
+</suite>

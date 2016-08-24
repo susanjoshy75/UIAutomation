@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [PPTSuite]">
+  <parameter name="sheetName" value="ppt"/>
+  <test name="PresentationTest(failed)">
+    <parameter name="sheetName" value="ppt"/>
+    <classes>
+      <class name="test.ui.PresentationPageTest">
+        <methods>
+          <include name="close"/>
+          <include name="testPresentations" invocation-numbers="0"/>
+          <include name="afterSuite"/>
+          <include name="init"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- test.ui.PresentationPageTest -->
+    </classes>
+  </test> <!-- PresentationTest(failed) -->
+</suite> <!-- Failed suite [PPTSuite] -->

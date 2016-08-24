@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [recordSuite]">
+  <parameter name="sheetName" value="recordings"/>
+  <test name="RecordingsTest(failed)">
+    <parameter name="sheetName" value="recordings"/>
+    <classes>
+      <class name="test.ui.RecordingsPageTest">
+        <methods>
+          <include name="init"/>
+          <include name="beforeSuite"/>
+          <include name="testRecordings" invocation-numbers="0"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ui.RecordingsPageTest -->
+    </classes>
+  </test> <!-- RecordingsTest(failed) -->
+</suite> <!-- Failed suite [recordSuite] -->

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ChildSuite1]">
+  <parameter name="uri" value="https://api.github.com/"/>
+  <test name="GithubTest(failed)">
+    <parameter name="uri" value="https://api.github.com/"/>
+    <classes>
+      <class name="test.api.GitHubTest">
+        <methods>
+          <include name="setBaseUri"/>
+          <include name="testRepos"/>
+          <include name="beforeSuite"/>
+          <include name="clear"/>
+          <include name="testUser"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- test.api.GitHubTest -->
+    </classes>
+  </test> <!-- GithubTest(failed) -->
+</suite> <!-- Failed suite [ChildSuite1] -->
